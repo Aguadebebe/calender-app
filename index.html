@@ -1,0 +1,103 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calender</title>
+   <link rel="stylesheet" href="styles.css">
+   <style>
+     #modal.open {
+       display: block;
+     }
+ 
+     #overlay.open {
+       display: block;
+     }
+   </style>
+   <script src="script.js" defer></script>
+ </head>
+ 
+ <body>
+     
+   <h1>Calender</h1>
+   <div class="weekday-container" id="d1">Monday</div>
+   <div class="weekday-container" id="d2">Tuesday</div>
+   <div class="weekday-container" id="d3">Wednsday</div>
+   <div class="weekday-container" id="d4">Thursday</div>
+   <div class="weekday-container" id="d5">Friday</div>
+   <div class="weekday-container" id="d6">Saturday</div>
+   <div class="weekday-container" id="d7">Sunday</div>
+     
+   <div class="board" id="board">
+     
+       <div class="cell">
+         <button class="open-modal-btn" id="btn0">Mon</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn1">Tue</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn2">Wed</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn3">Thurs</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn4">Fri</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn5">Sat</button>
+       </div>
+       <div class="cell">
+         <button class="open-modal-btn" id="btn6">Sun</button>
+       </div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+ 
+       <div id="overlay"></div>
+       <div id="modal">
+           <h3>Monday = learned how to connect a for loop and .forEach
+             to eventListeners!!!</h3>
+           <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Tuesday = Learned how to change classes of html and css elements!</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Wednsday = Learned how to name html id's!</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Thursday = Huh, it still doesn't work?</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Friday = Another question?!</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Saturday = Getting it!</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>
+       <div id="modal">
+         <h3>Sunday =  CODING coding!</h3>
+         <button class="close-modal-btn">Close</button>
+       </div>    
+ </body>
+  
+ </html>
